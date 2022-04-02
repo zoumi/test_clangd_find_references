@@ -1,0 +1,13 @@
+CompileFlags:                     # Tweak the parse settings
+    Add: [
+        -Wall,
+        "-Wextra",
+        "-nobuiltininc",
+        "-nostdinc++",
+        "-ferror-limit=0",
+        "-ID:\\work\\test_clangd_find_references\\mod1",
+        "-ID:\\work\\test_clangd_find_references\\mod2",
+        "-ID:\\work\\test_clangd_find_references"
+    ]
+    #Compiler: clang
+    #CompilationDatabase: None

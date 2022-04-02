@@ -1,0 +1,17 @@
+[
+    {
+        "directory":"",
+        "command":"gcc -c main.c",
+        "file":"D:\\work\\test_clangd_find_references\\main.c"
+    },
+    {
+        "directory":"",
+        "command":"gcc -c mod1_test.c",
+        "file":"D:\\work\\test_clangd_find_references\\mod1\\mod1.c"
+    },
+    {
+        "directory":"",
+        "command":"clang -c mod2_test.c",
+        "file":"D:\\work\\test_clangd_find_references\\mod2\\mod2.c"
+    }
+]
